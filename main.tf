@@ -3,12 +3,7 @@ resource "azurerm_resource_group" "gha_rg" {
   location = var.location
 }
 
-resource "azurerm_resource_group" "gha_rg" {
+resource "azurerm_resource_group" "gha_rg2" {
   name     = "gha-rg2"
-  location = var.location
-}
-
-resource "azurerm_resource_group" "gha_rg3" {
-  name     = "gha-rg3"
   location = var.location
 }
